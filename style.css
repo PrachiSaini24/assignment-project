@@ -10,11 +10,71 @@
     height : 60px ;
     width: 100%;
     font-family: sans-serif;
-    background-color: chocolate;
-    color : white ;
-    padding: 20px;
-    margin-top:20px;
-    /* display: flex;
+    /* background-color: chocolate; */
+    color : black ;
+    padding: 10px;
+    text-align: center;
+   display: flex;
     justify-content: space-evenly;
-    align-items: center; */
+    align-items: center;
  }
+ .skincare{
+    text-align: center;
+    width: 20%;
+    font-weight: 600;
+    font-size: 1.3rem;
+    top : 50px; 
+    left :100px ;
+   }
+
+ .nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 25%;
+
+ }
+ .nav-content li{
+    list-style-type: none;
+ }
+   
+  .nav-content li a{
+    text-decoration: none;
+    font-size: 0.6rem;
+    list-style-type: none;
+    color: black;
+    
+
+  }
+
+  .nav-logos{
+   /* background-color: aquamarine; */
+   width: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+  }
+  .nav-bag{
+    font-size: 0.6rem;
+    color: black;
+
+  }
+  .cart-text{
+    font-size: 0.6rem;
+    color: black;
+    
+  }
+  .nav-heart{
+    font-size: 0.6rem;
+    color: black;
+    
+  }
+  .nav-person{
+    font-size: 0.6rem;
+    color: black;
+    
+  }
+  .nav-logos:hover{
+    cursor: pointer;
+  }
