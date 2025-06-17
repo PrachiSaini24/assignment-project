@@ -10,7 +10,7 @@
     height : 60px ;
     width: 100%;
     font-family: sans-serif;
-    /* background-color: chocolate; */
+    background-color: chocolate;
     color : black ;
     padding: 10px;
     text-align: center;
@@ -78,3 +78,48 @@
   .nav-logos:hover{
     cursor: pointer;
   }
+
+  /* hero-section1  */
+  .section-content{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 20px;
+    padding: 20px;
+   
+  }
+  .section-text1{
+    width: 23%;
+    background-color: brown;
+    width: 335;
+    height: 87;
+    top: 301px;
+    left: 100px;
+    text-indent: 90px;
+
+
+  }
+  /* .span {
+    text-wrap: wrap;
+    width: 335;
+    height: 87;
+    top: 301px;
+    left: 100px;
+
+   
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
