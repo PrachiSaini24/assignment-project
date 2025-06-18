@@ -34,3 +34,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("scroll", revealWords);
 });
+
+
+// add animation to the buttons
+// slider.js
+
+document.addEventListener("DOMContentLoaded", function () {
+  const slider = document.querySelector(".product-slider");
+  const leftArrow = document.querySelector(".sell-arrow1");
+  const rightArrow = document.querySelector(".sell-arrow2");
+
+  if (slider && leftArrow && rightArrow) {
+    leftArrow.addEventListener("click", () => {
+      slider.scrollBy({ left: -300, behavior: "smooth" });
+    });
+
+    rightArrow.addEventListener("click", () => {
+      slider.scrollBy({ left: 300, behavior: "smooth" });
+    });
+  }
+});
+
