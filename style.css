@@ -410,10 +410,10 @@
 
  .bio-outer1{
     height: 500px;
-    background-color: aquamarine;
     width: 45%;
     margin: 30px 30px 0px 30px;
     /* flex-wrap: wrap; */
+    background-color: indianred;
 
  }
  .bio-outer2{
@@ -470,6 +470,6 @@
    line-height: 24px;
    letter-spacing: -2%;
    flex-wrap: wrap;
-   background-color: rgb(209, 219, 127);
+   /* background-color: rgb(209, 219, 127); */
 
  }
