@@ -626,6 +626,36 @@ justify-content: space-evenly;
   }
 }
 
+/* add images  */
+
+.container-product{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img{
+  width: 400px;
+height: 500px;
+top: 3707px;
+left: 100px;
+border-radius: 20px;
+/* border:1px solid rgb(32, 130, 228) */
+
+}
+.img img{
+  background-size: cover;
+   width:100%;
+  height: auto;
+}
+.img:hover{
+  border-radius: none;
+border:1px solid rgb(32, 130, 228) ;
+cursor: pointer;
+border-width: 2px;
+
+
+}
+
 
 
 
