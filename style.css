@@ -46,7 +46,12 @@
   list-style-type: none;
 
 }
-
+.nav-content li a:hover{
+  cursor: pointer;
+  border-radius: 2px solid rgb(60, 141, 202) ;
+  text-decoration: blue underline;
+  
+}
 .nav-logos {
   /* background-color: aquamarine; */
   width: 23%;
@@ -77,9 +82,11 @@
 
 
 }
-
-.nav-logos:hover {
+ .nav-person:hover ,.nav-bag:hover ,.nav-heart:hover , .cart-text:hover {
   cursor: pointer;
+  outline: 2px solid blue;
+  /* text-decoration: blue underline; */
+
 }
 
 /* hero-section1  */
@@ -108,6 +115,13 @@
 
 
 }
+.section-text1:hover{
+  cursor: pointer;
+  border-radius: 2px solid rgb(60, 141, 202) ;
+  text-decoration: blue underline;
+  
+}
+
 
 .section-text2 {
   font-family: Inter;
@@ -125,6 +139,12 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.section-text2:hover{
+  cursor: pointer;
+  /* border-radius: 1px solid rgb(60, 141, 202) ; */
+  text-decoration:1px rgb(92, 92, 194) underline;
+  
 }
 
 .image-section {
@@ -228,6 +248,11 @@
   height: 600px;
 
 }
+.main-img img:hover{
+  outline: 2px solid rgba(0, 4, 255, 0.686);
+  border-radius: 0%;
+}
+
 
 /* Base Styles */
 
@@ -255,7 +280,7 @@
 }
 
 /* Responsive Design */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .container h1 {
     font-size: 2.2rem;
   }
@@ -273,7 +298,7 @@
   .container p {
     font-size: 0.9rem;
   }
-} */
+}
 
 
 
@@ -317,6 +342,11 @@
   font-size: 1.9rem;
 
 }
+.p-content:hover{
+
+ text-decoration:2px rgb(92, 92, 194) underline;
+  /* border-radius: 0%; */
+}
 
 .p-content span.visible {
   opacity: 1;
@@ -338,6 +368,7 @@
   margin: 30px 30px 0px 30px;
 
 }
+
 
 .circle {
   height: 20px;
@@ -540,6 +571,10 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 }
+.sell-inner1:hover{
+  outline: 1px solid rgb(42, 42, 197);
+  
+}
 .sell-second{
   width: 678px;
   height: 117px;
@@ -706,4 +741,31 @@ text-align: center;
 
 
 }
+
+/* faq image  */
+.faq-image{
+  width: 850px;
+height: 800px;
+top: 7510px;
+left: 100px;
+
+}
+.faq-image img{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  margin: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
