@@ -4,14 +4,14 @@
     margin : 0 ;
     padding: 0 ;
     box-sizing: border-box;
+    color:#2D3B36;
 }
  /* navbar section  */
  .navbar{
     height : 60px ;
     width: 100%;
     font-family: sans-serif;
-    background-color: chocolate;
-    color : black ;
+    /* background-color: chocolate; */
     padding: 10px;
     text-align: center;
    display: flex;
@@ -43,7 +43,7 @@
     text-decoration: none;
     font-size: 0.6rem;
     list-style-type: none;
-    color: black;
+   
     
 
   }
@@ -57,22 +57,21 @@
   }
   .nav-bag{
     font-size: 0.6rem;
-    color: black;
-
+    
   }
   .cart-text{
     font-size: 0.6rem;
-    color: black;
+  /* color:#2D3B36; */
     
   }
   .nav-heart{
     font-size: 0.6rem;
-    color: black;
+ 
     
   }
   .nav-person{
     font-size: 0.6rem;
-    color: black;
+    
     
   }
   .nav-logos:hover{
@@ -143,6 +142,82 @@
     border-radius: 0%;
 }
 
+/* main section  */
+.main{
+  height: 500px;
+  /* background-color: cornflowerblue; */
+  margin-top: 400px;
+}
+.shop-now{
+  height: 60px;
+  width: 180px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 814px;
+  left: 120px;
+  margin-left: 20px;
+}
+.shop-now a{
+    width: 160px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #2D3B36;
+    text-decoration: none;
+   
+}
+.shop-now a p{
+ text-align: center;
+ padding: 15px;
+ color: white;
+}
+.main-text{
+
+height: 275px;
+top: 982px;
+left: -1px;
+justify-content: center;
+align-content: center;
+display: flex;
+/* position: absolute; */
+z-index: 1;
+
+}
+.main-text p{
+font-family: Inter;
+font-weight: 800;
+font-size: 18rem;
+/* leading-trim: Cap height; */
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+
+}
+.main-img{
+position: relative;
+/* background-color: chartreuse; */
+height: 500px;
+z-index: 2;
+
+
+
+
+}
+.main-img img{
+
+
+border-radius: 30px;
+position: absolute;
+left: 33.5%;
+top: -650px;
+z-index: 2;
+width: 600px;
+height: 600px;
+
+
+
+}
 
 
 
