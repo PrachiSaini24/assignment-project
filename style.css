@@ -44,8 +44,6 @@
     font-size: 0.6rem;
     list-style-type: none;
    
-    
-
   }
 
   .nav-logos{
@@ -78,7 +76,8 @@
     cursor: pointer;
   }
 
-  /* hero-section1  */
+         /* hero-section1  */
+
   .section-content{
     /* background-color: aquamarine; */
     display: flex;
@@ -184,7 +183,7 @@ display: flex;
 z-index: 1;
 
 }
-.main-text p{
+.main-text h1{
 font-family: Inter;
 font-weight: 800;
 font-size: 18rem;
@@ -200,9 +199,6 @@ position: relative;
 height: 500px;
 z-index: 2;
 
-
-
-
 }
 .main-img img{
 
@@ -215,9 +211,53 @@ z-index: 2;
 width: 600px;
 height: 600px;
 
-
-
 }
+
+/* Base Styles */
+
+
+#loader {
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.container {
+  opacity: 0.9;
+  transform: translateY(50px);
+  transition: all 1s ease;
+  text-align: center;
+  /* margin: auto; */
+}
+
+.container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .container h1 {
+    font-size: 2.2rem;
+  }
+
+  .container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 1.8rem;
+  }
+
+  .container p {
+    font-size: 0.9rem;
+  }
+} */
 
 
 
