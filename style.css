@@ -336,10 +336,36 @@ height: 600px;
   left: 158px;
 
 }
+.product-text p{
+font-family: Inter;
+font-weight:400;
+font-size: 20px;
+/* leading-trim: Cap height; */
+line-height: 100%;
+letter-spacing: 0%;
 
+}
 
+/*----- product section heading----- */
 
+.pro-heading{
+    width: 640px;
+    height: 117px;
+    top: 2324px;
+    left: 100px;
+    background-color: aquamarine;
+    margin: 30px 30px 0px 30px;
 
+}
+.pro-heading h1{
+font-family: Inter;
+font-weight: 400;
+font-size: 3.5rem;
+line-height: 100%;
+letter-spacing: -2%;
+color: #2D3B36;
+
+}
 
 
 
