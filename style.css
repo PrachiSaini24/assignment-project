@@ -405,3 +405,71 @@
 
 
 }
+
+ /*------- bio outer1 section ------- */
+
+ .bio-outer1{
+    height: 500px;
+    background-color: aquamarine;
+    width: 45%;
+    margin: 30px 30px 0px 30px;
+    /* flex-wrap: wrap; */
+
+ }
+ .bio-outer2{
+  height: 180px;
+  /* background-color: rgb(155, 82, 96); */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+ .bio-heading {
+  width: 63px;
+  height: 44px;
+  top: 2652px;
+  left: 100px;
+
+
+ }
+ .bio-heading h1{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 3.5rem;
+  /* leading-trim: Cap height; */
+  line-height: 100%;
+  letter-spacing: -2%;
+  color: #2D3B36;
+
+ }
+ .bio-ing{
+  width: 408px;
+  height:44px;
+  top: 2652px;
+  left: 213px;
+
+
+ }
+ .bio-ing h1{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 2.7rem;
+  /* leading-trim: Cap height; */
+  line-height: 100%;
+  letter-spacing: -2%;
+  color:#2D3B36;
+  
+ }
+ .bio-ing p{
+  width: 245px;
+   height: 37px;
+   top: 2746px;
+   left: 213px;
+   font-family: Inter;
+   font-weight: 400;
+   font-size: 0.7rem;
+   line-height: 24px;
+   letter-spacing: -2%;
+   flex-wrap: wrap;
+   background-color: rgb(209, 219, 127);
+
+ }
